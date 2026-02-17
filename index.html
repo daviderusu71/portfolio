@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>David Rusu - Web Developer</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:#020617;
+}
+
+h1{
+    font-size:48px;
+    color:#38bdf8;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#111827;
+    padding:20px;
+    border-radius:10px;
+}
+
+a.button{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:6px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>David Rusu</h1>
+    <p>Web Developer | HTML CSS JavaScript</p>
+</header>
+
+<section>
+    <h2>Proiectele mele</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Website Builder</h3>
+            <p>Aplicație pentru creare site-uri fără cod</p>
+            <a class="button" href="https://daviderusu71.github.io/MySite-Creator/" target="_blank">Vezi proiect</a>
+        </div>
+
+        <div class="card">
+            <h3>Service PC Website</h3>
+            <p>Site creat folosind builderul</p>
+            <a class="button" href="https://daviderusu71.github.io/service-pc-demo/" target="_blank">Vezi site</a>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: contact@example.com</p>
+</section>
+
+</body>
+</html>
